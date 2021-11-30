@@ -1,9 +1,11 @@
-package arraylist_student;
+package interface_student;
+
+import arraylist_student.StudentDAO;
 
 import java.util.Scanner;
 
-public class StudentUpdate {
-    public void studentUpdate(){
+public class StudentInsert {
+    public void studentInsert(){
         Scanner scan = new Scanner(System.in);
         StudentDAO stdDAO = new StudentDAO();
 
@@ -32,6 +34,6 @@ public class StudentUpdate {
         String dptNo = scan.nextLine();
 
         StudentDTO stdDTO = new StudentDTO(stdNo, stdName, stdYear, stdAddress, stdBirthday, dptNo);
-        stdDAO.updateStudent(stdDTO);
+        stdDAO.insertStudent(stdDTO);
     }
 }

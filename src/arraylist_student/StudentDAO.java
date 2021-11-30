@@ -1,4 +1,4 @@
-package db5;
+package arraylist_student;
 
 //(1) 생성자에서 DB 연결
 //(2) selectStudent() 메서드 : 데이터베이스의 student 테이블에서 select 한 결과 출력
@@ -12,7 +12,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Date;
 
 public class StudentDAO {
     Connection con = null;

@@ -1,4 +1,4 @@
-package db4;
+package arraylist_product;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -43,6 +43,8 @@ public class ProductDAO {
             pstmt = con.prepareStatement(sql);
             rs = pstmt.executeQuery(sql);
 
+            dataSet = new ArrayList<ProductDTO>();
+
             while(rs.next()) {
                 dataSet.add(new ProductDTO(rs.getString(1),
                                            rs.getString(2),
@@ -54,6 +56,7 @@ public class ProductDAO {
             }
 
         } catch (Exception e) {
+            System.out.println("오류 발생");
             e.printStackTrace();
         }
         return dataSet;

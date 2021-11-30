@@ -1,4 +1,4 @@
-package arraylist_student;
+package interface_student;
 
 public class StudentDTO {
     private String stdNo;

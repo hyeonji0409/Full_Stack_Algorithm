@@ -1,4 +1,4 @@
-package arraylist_student;
+package interface_student;
 
 import java.util.Scanner;
 

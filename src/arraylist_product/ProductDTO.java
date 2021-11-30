@@ -1,4 +1,4 @@
-package db4;
+package arraylist_product;
 
 public class ProductDTO {
     private String prdNo;

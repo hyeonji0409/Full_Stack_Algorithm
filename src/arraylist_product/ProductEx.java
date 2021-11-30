@@ -1,4 +1,4 @@
-package db4;
+package arraylist_product;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -34,6 +34,7 @@ public class ProductEx {
 
         ProductDTO prdDTO = new ProductDTO(prdNo, prdName, prdPrice, prdMaker, prdColor, ctgNo);
         prdDAO.insertProduct(prdDTO);
+
         ArrayList<ProductDTO> dataSet = new ArrayList<ProductDTO>();
         dataSet = prdDAO.selectProduct();
 

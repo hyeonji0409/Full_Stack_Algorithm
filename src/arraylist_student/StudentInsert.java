@@ -1,4 +1,4 @@
-package db5;
+package arraylist_student;
 
 import java.util.Scanner;
 

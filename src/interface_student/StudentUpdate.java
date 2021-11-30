@@ -1,4 +1,6 @@
-package arraylist_student;
+package interface_student;
+
+import arraylist_student.StudentDAO;
 
 import java.util.Scanner;
 

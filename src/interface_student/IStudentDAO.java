@@ -1,0 +1,14 @@
+package interface_student;
+
+import java.util.ArrayList;
+
+// 인터페이스: 표준 규격을 정해놓은 것
+// 인터페이스를 구현하는 클래스에서 정의된 메서드를 반드시 구현해야 함
+// @Override 오버라이드 해야 함
+
+public interface IStudentDAO {
+    // 추상 메서드(바디 없음)
+    // IStudentDAO 인터페이스를 구현하는 클래스에서 반드시 구현해야 함
+    public ArrayList<StudentDTO> studentSelect();
+    public void insertStudent(StudentDTO dto);
+}
