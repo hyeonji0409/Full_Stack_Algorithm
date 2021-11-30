@@ -3,7 +3,7 @@ package list;
 import java.util.List;
 import java.util.Vector;
 
-public class VecotrEx {
+public class VectorEx1 {
     public static void main(String[] args) {
         List<Board> list = new Vector<Board>();
 

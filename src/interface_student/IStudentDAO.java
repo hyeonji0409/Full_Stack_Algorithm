@@ -7,8 +7,8 @@ import java.util.ArrayList;
 // @Override 오버라이드 해야 함
 
 public interface IStudentDAO {
-    // 추상 메서드(바디 없음)
+    // 추상 메서드 (바디 없음)
     // IStudentDAO 인터페이스를 구현하는 클래스에서 반드시 구현해야 함
-    public ArrayList<StudentDTO> studentSelect();
+    public ArrayList<StudentDTO> selectStudent();
     public void insertStudent(StudentDTO dto);
 }

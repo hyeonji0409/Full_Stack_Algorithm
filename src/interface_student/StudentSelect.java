@@ -10,7 +10,7 @@ public class StudentSelect {
 
 
         ArrayList<StudentDTO> dataSet = new ArrayList<StudentDTO>();
-        dataSet = stdDAO.selectStudent();
+        // dataSet = stdDAO.selectStudent();
 
         System.out.println("제목 출력 알아서,,,");
 
